@@ -25,6 +25,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   margin-bottom: 20px; /* add margin to bottom to create spacing between header and other content */
+  cursor: pointer;
 }
 
 .App-header h3 {
@@ -32,13 +33,24 @@
 }
 .App-header h3:hover,
 .App-header h4:hover {
-  transform: translateY(-2px);
+  transform: translateY(-4px);
   color: #61dafb;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  background-color: #282D35;
+  color: #fff;
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
